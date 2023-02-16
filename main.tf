@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   ami           = "ami-04de5880b95cc889b"
   instance_type = var.instance_type
   tags= {
-    Name = "raham"
+    Name = "venky"
   }
 }
 
